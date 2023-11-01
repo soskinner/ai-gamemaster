@@ -1,0 +1,36 @@
+/* ... (previous styles) */
+
+#chatgpt-splash {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.chatgpt-splash-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.splash-message p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.splash-actions .close-splash {
+    background-color: #1e88e5;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.splash-actions .close-splash:hover {
+    background-color: #1565c0;
+}

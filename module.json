@@ -1,0 +1,15 @@
+{
+  "id": "ai-gamemaster",
+  "title": "AI GameMaster",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": ["module/main.js", "module/settings.js"],
+  "styles": ["styles/styles.css"],
+  "scripts": ["module/libs/howler.core.js"],
+  "url": "https://az.net",
+  "manifest": "URL to your module.json file",
+  "download": "URL to your module zip file"
+}
