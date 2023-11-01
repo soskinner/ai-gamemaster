@@ -10,6 +10,6 @@
   "styles": ["styles/styles.css"],
   "scripts": ["module/libs/howler.core.js"],
   "url": "https://az.net",
-  "manifest": "URL to your module.json file",
-  "download": "URL to your module zip file"
+  "manifest": "https://github.com/soskinner/ai-gamemaster/blob/first/module.json",
+  "download": "https://github.com/soskinner/ai-gamemaster/archive/refs/tags/first.zip"
 }
