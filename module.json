@@ -1,15 +1,25 @@
 {
   "id": "ai-gamemaster",
+  "name": "AI GameMaster",
   "title": "AI GameMaster",
-  "version": "1.0.0",
+  "description": "AI GameMaster",
+  "version": "1.0.0.1",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "10",
     "verified": "11"
   },
-  "esmodules": ["module/main.js", "module/settings.js"],
-  "styles": ["styles/styles.css"],
-  "scripts": ["module/libs/howler.core.js"],
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "11",
+  "esmodules": [
+    "module/main.js", "module/settings.js"
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "scripts": [
+    "module/libs/howler.core.js"
+  ],
   "url": "https://az.net",
-  "manifest": "https://github.com/soskinner/ai-gamemaster/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/soskinner/ai-gamemaster/main/module.json",
   "download": "https://github.com/soskinner/ai-gamemaster/archive/refs/tags/latest.zip"
 }
