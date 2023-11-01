@@ -11,5 +11,5 @@
   "scripts": ["module/libs/howler.core.js"],
   "url": "https://az.net",
   "manifest": "https://github.com/soskinner/ai-gamemaster/blob/first/module.json",
-  "download": "https://github.com/soskinner/ai-gamemaster/archive/refs/tags/first.zip"
+  "download": "https://github.com/soskinner/ai-gamemaster/archive/refs/tags/latest.zip"
 }
