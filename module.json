@@ -9,6 +9,16 @@
   "esmodules": ["module/main.js", "module/settings.js"],
   "styles": ["styles/styles.css"],
   "scripts": ["module/libs/howler.core.js"],
+  "packs": [
+    {
+        "name": "ai-gamemaster-responses",
+        "label": "AI GameMaster Responses",
+        "path": "./packs/ai-gamemaster-responses.db",
+        "entity": "JournalEntry",
+        "module": "ai-gamemaster",
+        "type": "JournalEntry"
+    }
+],
   "url": "https://az.net",
   "manifest": "https://github.com/soskinner/ai-gamemaster/blob/main/module.json",
   "download": "https://github.com/soskinner/ai-gamemaster/archive/refs/tags/first.zip"
