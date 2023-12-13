@@ -1,4 +1,6 @@
 import { MODULE_ID, registerSettings } from './settings.js';
+
+
 class SplashScreen extends Application {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
